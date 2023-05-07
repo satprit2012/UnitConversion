@@ -10,7 +10,7 @@
 
 ## Information for Developer
   Unit Conversion Get api is used for unit conversion
- _ Conversion?unitName=temperature&unitType=c&unitValue=5 _
+**_Conversion?unitName=temperature&unitType=c&unitValue=5_**
   
   Conversion Rate is fetched from SQL and Entity Framework is used as ORM for that.
   Calculation is done in the Service layer for unit.
