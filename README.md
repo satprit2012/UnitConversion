@@ -24,9 +24,9 @@
   
   Request to the api call
   
-  UnitName - Name of the unit e.g. Temperature 
-  Unit Type - Type of the unit to which you want to convert. e.g. C (Fahrenheit to Celsius)      
-  UnitValue - Value to be converted e.g. 5
+  **Unit Name** - Name of the unit e.g. Temperature 
+  **UnitType** - Type of the unit to which you want to convert. e.g. C (Fahrenheit to Celsius)      
+  **UnitValue** - Value to be converted e.g. 5
   
   This input will give output as 
     
