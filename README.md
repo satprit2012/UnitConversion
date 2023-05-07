@@ -6,7 +6,7 @@
 ## Technical Requirement
   Dot Net 6
   Visual Studio 2022
-  SQL Server
+  SQL Server 2012
 
 ## Information for Developer
   Unit Conversion Get api is used for unit conversion
@@ -22,8 +22,6 @@
   
  ## How to run application
     Request to the api call
-    
-      ![image](https://user-images.githubusercontent.com/68552036/236668002-4dd98349-07d7-4170-902d-48945f2877ce.png)
 
   UnitName - Name of the unit e.g. Temperature
   Unit Type - Type of the unit to which you want to convert. e.g. C (Fahrenheit to Celsius)
@@ -32,6 +30,4 @@
   This input will give output as 
     
     -15C  
-    
-    
-    ![image](https://user-images.githubusercontent.com/68552036/236668207-cee73235-1c11-4d07-b745-461477f5b438.png)
+   
