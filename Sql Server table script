@@ -1,0 +1,19 @@
+USE [UnitConversion]
+GO
+/****** Object:  Table [dbo].[ConversionDetails]    Script Date: 07-05-2023 18:40:42 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[ConversionDetails](
+	[UnitId] [int] IDENTITY(1,1) NOT NULL,
+	[UnitName] [nchar](20) NULL,
+	[UnitType] [char](10) NULL,
+	[UnitFormula] [nvarchar](50) NULL,
+	[UnitSign] [nchar](10) NULL,
+ CONSTRAINT [PK_ConversionDetails] PRIMARY KEY CLUSTERED 
+(
+	[UnitId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
